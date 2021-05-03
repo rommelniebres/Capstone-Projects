@@ -337,6 +337,7 @@ select:focus {
 /* <!---------- Single Product Page ----------> */
 .gallery {
 	width: 100%;
+	border: 1px solid white;
 }
 .small-container h2 {
 	color: #fff;
