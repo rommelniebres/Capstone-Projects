@@ -8,14 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin - RedCloud</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <!-- admin-login-page -->
+    <!------------ Admin login page ------------>
     <div class="account-page">
         <div class="container">
             <div class="row">
@@ -45,20 +42,7 @@
             </div>
         </div>
     </div>
-    <!-- js for toggle menu -->
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-        MenuItems.style.maxHeight = "0px"
-        function menuToggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px"
-            }
-            else {
-                MenuItems.style.maxHeight = "0px"
-            }
-        }
-    </script>
-    <!-- js for toggle form -->
+    <!------------ JS for toggle form ------------>
     <script>
         var LoginForm = document.getElementById("LoginForm");
         var RegistrationForm = document.getElementById("RegistrationForm");
@@ -74,7 +58,6 @@
             Indicator.style.transform = "translateX(0px)";
         }
     </script>
-
 </body>
 
 </html>

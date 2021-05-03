@@ -8,13 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile - RedCloud</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
+    <!------------ User Profile page ------------>
     <div class="container">
         <div class="navbar">
             <a href="index.html"><img src="/images/logo.png" class="logo" alt="logo"></a>
@@ -30,7 +28,7 @@
             <p class="cart-count">0</p>
         </div>
     </div>
-    <!------------ Billing and shipping -------------->
+    <!------------ Shipping Form -------------->
     <div class="small-container shipping-info-bg">
         <div class="row shipping-billing-row">
             <div class="col-2">
@@ -67,6 +65,7 @@
                     <input type="submit" id="save-shipping" class="btn" value="Save">
                 </form>
             </div>
+            <!------------ Billing Form -------------->
             <div class="col-2 user-billing">
                 <form action="" class="shipping-info">
                     <h2>Billing Information</h2>
@@ -149,7 +148,7 @@
             <p class="copyright">Copyright 2021 - Red Clouds PH</p>
         </div>
     </footer>
-    <!-- js for toggle menu -->
+    <!---------- js for toggle menu ---------->
     <script>
         var MenuItems = document.getElementById("MenuItems");
         MenuItems.style.maxHeight = "0px"

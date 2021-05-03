@@ -2,14 +2,15 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	/* outline: 1px solid green; */
 }
+/* <!---------- Body ----------> */
 body {
 	background-color: #111;
 	font-family: 'Poppins', sans-serif;
 	font-family: 'HelveticaNeueLTPro-Roman', 'HelveticaNeue-Roman', 'Helvetica Neue Roman',
 		'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
 }
+/* <!---------- Header ----------> */
 header {
 	background: radial-gradient(#444, #111);
 }
@@ -22,6 +23,7 @@ header {
 img.logo {
 	width: 125px;
 }
+/* <!---------- Navbar ----------> */
 .navbar {
 	display: flex;
 	align-items: center;
@@ -59,6 +61,7 @@ a {
 p {
 	color: #fff;
 }
+/* <!---------- Row ----------> */
 .row {
 	margin-top: 70px;
 	display: flex;
@@ -66,6 +69,7 @@ p {
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+/* <!---------- Col ----------> */
 .col-2 {
 	flex-basis: 50%;
 	min-width: 300px;
@@ -80,6 +84,7 @@ p {
 	line-height: 60px;
 	margin: 25px 0;
 }
+/* <!---------- Button ----------> */
 .btn {
 	display: inline-block;
 	background: #d23;
@@ -92,8 +97,9 @@ p {
 .btn:hover {
 	background: #333;
 }
-.categories {
-	margin: 70px 0;
+/* <!---------- Featured ----------> */
+.featured {
+	margin: 100px 0;
 }
 .col-3 {
 	flex-basis: 30%;
@@ -103,6 +109,7 @@ p {
 .col-3 img {
 	width: 100%;
 }
+/* <!---------- Small container ----------> */
 .small-container {
 	max-width: 1080px;
 	margin: auto;
@@ -151,7 +158,7 @@ p {
 .col-4:hover {
 	transform: translateY(-5px);
 }
-/* ------------offer--------------- */
+/* <!---------- Offer ----------> */
 .offer {
 	background: radial-gradient(#444, #111);
 	margin-top: 80px;
@@ -164,23 +171,23 @@ p {
 	font-size: small;
 	color: #fff;
 }
-/* ------------ testimonial --------------- */
-.testimonial {
+/* <!---------- Reviews ----------> */
+.reviews {
 	padding-top: 100px;
 }
-.testimonial .col-3 {
+.reviews .col-3 {
 	text-align: center;
 	padding: 40px 20px;
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	transition: transform 0.5s;
 }
-.testimonial .col-3 img {
+.reviews .col-3 img {
 	width: 50px;
 	margin-top: 20px;
 	border-radius: 50%;
 }
-.testimonial .col-3:hover {
+.reviews .col-3:hover {
 	transform: translateY(-10px);
 }
 .fas.fa-quote-left {
@@ -192,12 +199,12 @@ p {
 	margin: 12px 0;
 	color: #fff;
 }
-.testimonial .col-3 h3 {
+.reviews .col-3 h3 {
 	font-weight: 600;
 	color: #fff;
 	font-size: 16px;
 }
-/* ------------------- brands -------------- */
+/* <!---------- Brands ----------> */
 .brands {
 	margin: 100px auto;
 }
@@ -212,7 +219,7 @@ p {
 .col-5 img:hover {
 	filter: invert(100%);
 }
-/* -----------footer------------- */
+/* <!---------- Footer ----------> */
 footer {
 	background-color: #000;
 	color: #ccc;
@@ -270,7 +277,7 @@ footer hr {
 	margin-left: 20px;
 	display: none;
 }
-/* all products page */
+/* <!---------- All Products page ----------> */
 body.product-list {
 	background-color: #fff;
 }
@@ -305,7 +312,7 @@ select:focus {
 	background: #d23;
 	color: #fff;
 }
-/* categories */
+/* <!---------- Categories ----------> */
 .col-8 {
 	background-color: #fff;
 	flex-basis: 12%;
@@ -327,7 +334,7 @@ select:focus {
 	transform: translateY(-5px);
 	box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 }
-/* single product details */
+/* <!---------- Single Product Page ----------> */
 .gallery {
 	width: 100%;
 }
@@ -381,8 +388,8 @@ select:focus {
 	flex-basis: 24%;
 	cursor: pointer;
 }
-/*--------------- cart items details -------------*/
-/*--------------- table formats -------------*/
+/* <!---------- Cart Items ----------> */
+/* <!---------- Table Formats ----------> */
 .cart-page {
 	margin: 80px auto;
 	color: white;
@@ -421,6 +428,7 @@ td img {
 	width: 80px;
 	height: 80px;
 	margin-right: 10px;
+	background-color: #fff;
 }
 .total-price {
 	display: flex;
@@ -441,7 +449,7 @@ th:last-child {
 	margin-left: 70%;
 	border: none;
 }
-/* ---------account page---------- */
+/* <!---------- User Login Page ----------> */
 .account-page {
 	padding: 50px 0;
 	background: radial-gradient(#444, #111);
@@ -513,7 +521,7 @@ form .btn:focus {
 	transform: translateX(100px);
 	transition: transform 1s;
 }
-/* search field */
+/* <!---------- Search Field ----------> */
 .search-form {
 	display: block;
 	text-align: center;
@@ -541,13 +549,13 @@ form .btn:focus {
 	height: 45px;
 	border-radius: 6px;
 }
-/* add to cart notify */
+/* <!---------- Add to cart notify ----------> */
 .cart-update {
 	font-weight: bold;
 	color: #d23;
 	display: none;
 }
-/* ---------profile page billing and shiping------------- */
+/* <!---------- Profile Page Details ----------> */
 .shipping-info-bg {
 	background-color: #fff;
 }
@@ -585,7 +593,7 @@ form .btn:focus {
 	align-items: baseline;
 	margin-bottom: 20px;
 }
-/* admin dashboard */
+/* <!----------Admin Dashboard ----------> */
 #admin {
 	background-color: #fff;
 	color: #111;
@@ -597,7 +605,7 @@ form .btn:focus {
 	margin-top: 40px;
 	text-align: center;
 }
-/* product list admin dashboard */
+/* <!----------Admin Dashboard - Product List----------> */
 .btn-action {
 	width: 30%;
 }
@@ -608,7 +616,7 @@ form .btn:focus {
 	margin-right: 20px;
 }
 
-/* modal add product */
+/* <!----------Admin Dashboard - Modal add product----------> */
 #description {
 	height: 100px;
 	padding: 10px;
@@ -675,7 +683,7 @@ form .btn:focus {
 	font-size: 12px;
 	color: #fff;
 }
-/* single order details */
+/* <!----------Admin Dashboard - Single order details----------> */
 .status {
 	padding: 10px;
 	background-color: #d23;
@@ -684,27 +692,7 @@ form .btn:focus {
 .order-list {
 	color: #fff;
 }
-/* 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-/* --------- media query for menu --------- */
+/* <!---------- Responsive Media Query ----------> */
 @media only screen and (max-width: 800px) {
 	nav ul {
 		position: absolute;
@@ -732,7 +720,8 @@ form .btn:focus {
 		display: none;
 	}
 }
-/* --------- media query for less than 600 screen size --------- */
+/* <!---------- Responsive Media Query ----------> */
+/* <!---------- for less than 600 screen size ----------> */
 @media only screen and (max-width: 600px) {
 	.row {
 		text-align: center;
