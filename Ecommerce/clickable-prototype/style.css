@@ -618,6 +618,50 @@ form .btn:focus {
 }
 
 /* <!----------Admin Dashboard - Modal add product----------> */
+.font-dark {
+	color: #111;
+}
+.category-list {
+	padding: 5px;
+	border: 1px solid silver;
+	width: 120px;
+	list-style: none;
+	margin-top: 10px;
+}
+.category-list:hover {
+	cursor: pointer;
+}
+.category-list i {
+	margin-left: 5px;
+	color: #111;
+}
+.category-input {
+	border: none;
+}
+.category-input:focus {
+	outline: none;
+}
+.dropdown-wrapper {
+	background-color: #fff;
+	border: 1px solid black;
+	margin-top: 5px;
+	position: absolute;
+	width: 200px;
+}
+.hover-tools:hover .fas {
+	margin-right: 5px;
+	display: inline-block;
+}
+.dropdown-wrapper .edit {
+	cursor: pointer;
+	color: rgb(12, 184, 12);
+	display: none;
+}
+.dropdown-wrapper .delete {
+	cursor: pointer;
+	color: #d23;
+	display: none;
+}
 #description {
 	height: 100px;
 	padding: 10px;
@@ -640,40 +684,43 @@ form .btn:focus {
 	width: 100%;
 	display: table-cell;
 }
-.dropdown {
-	margin-top: 20px;
-	margin-bottom: 10px;
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-}
-.dropdown span {
-	border: 1px solid #555;
-	padding: 10px 20px;
-	margin-top: 200px;
-}
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	padding: 12px 16px;
-	z-index: 1;
-}
-.dropdown-content a {
-	display: block;
-}
-
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-.edit-options {
-	display: inline;
-}
 .add-product-btn {
 	display: inline-block;
 	width: 10px;
+}
+#sortable {
+	width: 100%;
+}
+.sortable-pictures .small-img {
+	width: 200px;
+	vertical-align: middle;
+}
+.sortable-pictures span {
+	vertical-align: middle;
+}
+
+.sortable-pictures .delete-img {
+	margin-left: 20px;
+	cursor: pointer;
+	color: #d23;
+	display: none;
+}
+.ui-sortable li:hover .delete-img {
+	margin-right: 5px;
+	display: inline-block;
+}
+.ui-sortable label {
+	margin-left: 20px;
+	vertical-align: middle;
+}
+.ui-sortable input[type='checkbox'] {
+	margin-top: 10px;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.image-selections {
+	width: 100%;
 }
 #close-modal {
 	padding: 5px 10px;
