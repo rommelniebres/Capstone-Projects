@@ -1,0 +1,1 @@
+all images are uploaded on the cloud (google cloud platform)
